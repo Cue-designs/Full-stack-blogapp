@@ -1,0 +1,92 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+nav{
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+   
+} 
+nav div button{
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+nav div button svg{
+    left: auto !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+ nav aside{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: 'roboto', sans-serif;
+    margin-left: 1rem;
+
+ }
+nav div{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+nav div a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+} nav section{
+    display: none;
+    margin-right: 2rem;
+}
+ 
+
+@media screen  and (min-width: 580px){
+    nav section{ 
+        display: block;
+    }
+    nav div button {
+        display: none;
+    }
+
+}
+
+
+
+ nav section.mobile{
+    display: none;
+}
+@media screen  and (max-width: 480px){
+    nav section{
+        margin-right: 0;
+    }
+    nav section.mobile {
+        display: block;
+        min-height: 3rem;
+        background-color: grey;
+
+    }
+    nav section.mobile a{
+        font-size: 1.5rem;
+        color: aliceblue;
+        text-decoration: none;
+        padding: 0.5rem;
+        display: block;
+        margin-left: 1rem;
+        padding-bottom: 1rem;
+    }
+}

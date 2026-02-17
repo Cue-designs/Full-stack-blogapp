@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Web Development",
+      "datetime": "January 05, 2026 09:00 AM",
+      "body": "Web development is an exciting field that combines creativity and logic. This post introduces the basic tools, languages, and mindset required to start your journey as a web developer."
+    },
+    {
+      "id": 2,
+      "title": "Understanding HTML Semantics",
+      "datetime": "January 06, 2026 11:15 AM",
+      "body": "Semantic HTML improves accessibility and SEO by giving meaning to web content. Learn how elements like header, article, and section help structure your pages correctly."
+    },
+    {
+      "id": 3,
+      "title": "CSS Flexbox Made Simple",
+      "datetime": "January 07, 2026 02:30 PM",
+      "body": "Flexbox is a powerful layout system in CSS. This article explains how flex containers and flex items work together to create responsive layouts."
+    },
+    {
+      "id": 4,
+      "title": "Mastering CSS Grid Layout",
+      "datetime": "January 08, 2026 10:00 AM",
+      "body": "CSS Grid allows you to design complex layouts with rows and columns. Discover how grid-template-areas and fractions simplify page design."
+    },
+    {
+      "id": 5,
+      "title": "JavaScript Basics for Beginners",
+      "datetime": "January 09, 2026 04:45 PM",
+      "body": "JavaScript adds interactivity to websites. This post covers variables, functions, and events to help beginners understand core concepts."
+    },
+    {
+      "id": 6,
+      "title": "Understanding the DOM",
+      "datetime": "January 10, 2026 01:20 PM",
+      "body": "The Document Object Model allows JavaScript to interact with HTML. Learn how to select, modify, and respond to elements dynamically."
+    },
+    {
+      "id": 7,
+      "title": "Introduction to ES6 Features",
+      "datetime": "January 11, 2026 09:40 AM",
+      "body": "ES6 introduced modern JavaScript features like arrow functions, let and const, and template literals that make code cleaner and more readable."
+    },
+    {
+      "id": 8,
+      "title": "What Is React and Why Use It?",
+      "datetime": "January 12, 2026 03:10 PM",
+      "body": "React is a popular JavaScript library for building user interfaces. This article explains components, JSX, and why React improves development speed."
+    },
+    {
+      "id": 9,
+      "title": "Setting Up a React Project with Vite",
+      "datetime": "January 13, 2026 12:00 PM",
+      "body": "Vite provides a fast and modern development environment for React. Learn how to set up a project and understand the folder structure."
+    },
+    {
+      "id": 10,
+      "title": "Understanding React Components",
+      "datetime": "January 14, 2026 10:50 AM",
+      "body": "Components are the building blocks of React applications. This post explains functional components and how to reuse them effectively."
+    },
+    {
+      "id": 11,
+      "title": "Props vs State in React",
+      "datetime": "January 15, 2026 02:15 PM",
+      "body": "Props and state control how React components behave. Learn the difference and when to use each for managing data."
+    },
+    {
+      "id": 12,
+      "title": "Handling Events in React",
+      "datetime": "January 16, 2026 09:30 AM",
+      "body": "Event handling in React is similar to JavaScript but with JSX syntax. This article shows how to manage clicks, forms, and inputs."
+    },
+    {
+      "id": 13,
+      "title": "React Router for Beginners",
+      "datetime": "January 17, 2026 01:00 PM",
+      "body": "React Router enables navigation between pages without reloading. Learn how to use Routes, Route, and Link components."
+    },
+    {
+      "id": 14,
+      "title": "Managing Global State with Context API",
+      "datetime": "January 18, 2026 04:00 PM",
+      "body": "The Context API helps share state across components. This post explains providers, consumers, and practical use cases."
+    },
+    {
+      "id": 15,
+      "title": "Fetching Data in React",
+      "datetime": "January 19, 2026 11:45 AM",
+      "body": "Fetching data from APIs is essential for modern apps. Learn how to use fetch and useEffect to load data efficiently."
+    },
+    {
+      "id": 16,
+      "title": "Using JSON Server for Mock APIs",
+      "datetime": "January 20, 2026 03:30 PM",
+      "body": "JSON Server allows you to create a fake REST API quickly. This article shows how to set it up using a db.json file."
+    },
+    {
+      "id": 17,
+      "title": "CRUD Operations Explained",
+      "datetime": "January 21, 2026 09:10 AM",
+      "body": "CRUD stands for Create, Read, Update, and Delete. These operations form the backbone of most web applications."
+    },
+    {
+      "id": 18,
+      "title": "Styling React Apps Effectively",
+      "datetime": "January 22, 2026 12:25 PM",
+      "body": "Styling React apps can be done with CSS, CSS Modules, or libraries. Learn best practices for maintainable styles."
+    },
+    {
+      "id": 19,
+      "title": "Debugging Common React Errors",
+      "datetime": "January 23, 2026 02:55 PM",
+      "body": "Debugging is a crucial skill. This post covers common React errors and how to fix them efficiently."
+    },
+    {
+      "id": 20,
+      "title": "Deploying a React Application",
+      "datetime": "January 24, 2026 10:00 AM",
+      "body": "Deployment makes your app accessible online. Learn how to deploy React applications using popular hosting platforms."
+    }
+  ]
+}

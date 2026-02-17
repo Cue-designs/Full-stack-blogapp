@@ -1,0 +1,93 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+ footer section  aside{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 0 1rem 0 1rem;
+ }
+ footer section  aside.Link{
+    display: inline;
+    padding: 1rem;
+
+   
+ }
+    footer section aside h2{
+        margin: .5rem 0 .5rem 0;
+        font-size: 1.5rem;
+    }
+
+    footer section aside a{
+        color: white;
+        text-decoration: none;
+        margin: .3rem 0 .3rem 0;
+        display: block;
+        font-size: .95rem;
+        padding-bottom: .5rem;
+    }
+
+    footer section aside a:hover{
+        text-decoration: underline;
+        opacity: .7;
+    }
+
+    footer section aside p{
+        color: white;
+        font-size: .9rem;
+        margin-top: .5rem;
+        line-height: 1rem;
+        display: inline;
+    }
+
+    footer section aside.Link a{
+        margin-right: 1.5rem;
+        text-decoration: none;
+        display: inline;
+    }
+
+    footer section aside.Link span a{
+        margin-top: 2rem;
+        display: block;
+        white-space: wrap;
+    }
+    footer section aside a svg{
+        background: black;
+        fill: white;
+        width: 4%;
+        height: auto;
+        cursor: pointer;
+        
+    }
+
+    @media screen  and (max-width: 480px){
+        footer section aside{
+            margin-left: 0;
+        }
+       
+        footer section aside a svg{
+        height: auto;
+        width: 11%;
+        
+        
+    }
+     footer section aside.Link a{
+        margin-right: 0rem;
+        text-decoration: none;
+        display: inline;
+    }
+    }
